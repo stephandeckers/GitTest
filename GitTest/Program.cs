@@ -10,5 +10,9 @@ namespace GitTest
 			Console.WriteLine( "Hello World! - b1" );
 			Console.WriteLine( "still working in b1" );
 		}
+
+		private void b1Only ( )
+		{
+		}
 	}
 }
