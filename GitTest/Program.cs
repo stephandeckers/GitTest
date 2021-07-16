@@ -11,8 +11,13 @@ namespace GitTest
 			Console.WriteLine( "still working in b1" );
 		}
 
+		private void b1Only ( )
+		{
+		}
+
 		private void masterOnly ( )
 		{
 		}
+
 	}
 }
