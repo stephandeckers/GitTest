@@ -1,7 +1,7 @@
 ﻿using System;
 --v5 change
 
--- conflict
+-- conflict 2
 =======
 --v1-1 change
 namespace GitTest
