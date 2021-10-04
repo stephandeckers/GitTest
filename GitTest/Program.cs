@@ -2,6 +2,8 @@
 --v5 change
 
 -- conflict
+=======
+--v1-1 change
 namespace GitTest
 {
 	class Program
