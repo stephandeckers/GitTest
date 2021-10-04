@@ -1,5 +1,7 @@
 ﻿using System;
 --v5 change
+
+-- conflict
 namespace GitTest
 {
 	class Program
