@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "Whoua.Core.Api.50": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:50203;http://localhost:50204"
+    }
+  }
+}
