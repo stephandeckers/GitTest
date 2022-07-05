@@ -73,6 +73,8 @@ namespace PXS.IfRF.Controllers
 	[ EnableCors			( Startup.PRXCORS)]
 	public class InfoController2 : ControllerBase
 	{
+		private readonly ILoggerManager	_logger = null;
+
 		private readonly IInfoService _infoService;
 
 		private const string swaggerControllerDescription = "General information - no auth";
@@ -86,12 +88,16 @@ namespace PXS.IfRF.Controllers
 			//: base (logger,refdataService)
 		{
 			_infoService	= infoService;
+			_logger			= logger;
 		}		
 
 		[ HttpGet()]
 		[ SwaggerOperation(Tags = new[] { swaggerControllerDescription }, Summary = "Retrieve build version")]
 		public ActionResult<InfoResponse> Get()
 		{
+			d.WriteLine( string.Format( "{0}.{1} ({2}.{3}):{4}", GetType().Name, System.Reflection.MethodInfo.GetCurrentMethod( ).Name, System.Threading.Thread.CurrentThread.ManagedThreadId, Global.CallCount++, string.Empty));
+
+			this._logger.Trace( $"Get:{System.DateTime.Now}");
 			return( this._infoService.Get());
 		}
 
