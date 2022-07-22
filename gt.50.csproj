@@ -1,0 +1,80 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\**" />
+    <Compile Remove="Src\certificates\**" />
+    <Compile Remove="Src\SqlServerMigration\**" />
+    <Content Remove="Controllers\**" />
+    <Content Remove="Src\certificates\**" />
+    <Content Remove="Src\SqlServerMigration\**" />
+    <EmbeddedResource Remove="Controllers\**" />
+    <EmbeddedResource Remove="Src\certificates\**" />
+    <EmbeddedResource Remove="Src\SqlServerMigration\**" />
+    <None Remove="Controllers\**" />
+    <None Remove="Src\certificates\**" />
+    <None Remove="Src\SqlServerMigration\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Properties\AssemblyInfo.cs" />
+    <Compile Remove="Properties\AssemblyProperties.cs" />
+    <Compile Remove="Src\ApiDirectoryBrowsing.cs" />
+    <Compile Remove="Src\AssemblyProperties.cs" />
+    <Compile Remove="Src\Basic.cs" />
+    <Compile Remove="Src\BasicAuthentication.cs" />
+    <Compile Remove="Src\BasicCondensed.cs" />
+    <Compile Remove="Src\CertificateBasedAuthentication.Kestrel.cs" />
+    <Compile Remove="Src\CertificateBasedAuthentication.pxs.cs" />
+    <Compile Remove="Src\CertificateBasedAuthentication.v1.cs" />
+    <Compile Remove="Src\CertificateBasedAuthentication.v2.cs" />
+    <Compile Remove="Src\Configuration.cs" />
+    <Compile Remove="Src\CustomCollections.cs" />
+    <Compile Remove="Src\FileUpload.cs" />
+    <Compile Remove="Src\FreeSplitterPositionSearch.cs" />
+    <Compile Remove="Src\FromQuery.cs" />
+    <Compile Remove="Src\GenericCrudDemo.cs" />
+    <Compile Remove="Src\Generics.cs" />
+    <Compile Remove="Src\IRF.Proto.cs" />
+    <Compile Remove="Src\Logging.cs" />
+    <Compile Remove="Src\MinimalApi.cs" />
+    <Compile Remove="Src\nlog.cs" />
+    <Compile Remove="Src\NopApi.cs" />
+    <Compile Remove="Src\NopApi.pxs.cs" />
+    <Compile Remove="Src\NopApi.Versions.cs" />
+    <Compile Remove="Src\NopApi.Versions.org.cs" />
+    <Compile Remove="Src\OData.context.cs" />
+    <Compile Remove="Src\OData.context.zTuff.cs" />
+    <Compile Remove="Src\OData.cs" />
+    <Compile Remove="Src\OData.DBBooks.cs" />
+    <Compile Remove="Src\OData6.cs" />
+    <Compile Remove="Src\ODataOutput.cs" />
+    <Compile Remove="Src\ODataRoutingSample.cs" />
+    <Compile Remove="Src\OptionalParameters.cs" />
+    <Compile Remove="Src\Patch.cs" />
+    <Compile Remove="Src\Patch6.cs" />
+    <Compile Remove="Src\Picture.cs" />
+    <Compile Remove="Src\pxs6.cs" />
+    <Compile Remove="Src\SecurityTrimming.cs" />
+    <Compile Remove="Src\Specialization.cs" />
+    <Compile Remove="Src\Swagger6.cs" />
+    <Compile Remove="Src\SwaggerDemo.cs" />
+    <Compile Remove="Src\SwaggerDiscovery.cs" />
+    <Compile Remove="Src\SwaggerFilters.cs" />
+    <Compile Remove="Src\SwaggerPublicRoles.cs" />
+    <Compile Remove="Src\SwaggerStaticGenerated.cs" />
+    <Compile Remove="Src\SwaggerVersions.cs" />
+    <Compile Remove="Src\SwaggerVersions5.cs" />
+    <Compile Remove="Src\WeatherForecastController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Certificate" Version="5.0.17" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.3.1" />
+  </ItemGroup>
+
+</Project>
