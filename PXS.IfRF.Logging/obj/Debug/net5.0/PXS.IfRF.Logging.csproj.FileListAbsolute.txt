@@ -1,0 +1,10 @@
+C:\Usr\Stephan\Wrk\git.gittest\PXS.IfRF.Logging\bin\Debug\net5.0\PXS.IfRF.Logging.deps.json
+C:\Usr\Stephan\Wrk\git.gittest\PXS.IfRF.Logging\bin\Debug\net5.0\PXS.IfRF.Logging.dll
+C:\Usr\Stephan\Wrk\git.gittest\PXS.IfRF.Logging\bin\Debug\net5.0\PXS.IfRF.Logging.pdb
+C:\Usr\Stephan\Wrk\git.gittest\PXS.IfRF.Logging\obj\Debug\net5.0\PXS.IfRF.Logging.csproj.AssemblyReference.cache
+C:\Usr\Stephan\Wrk\git.gittest\PXS.IfRF.Logging\obj\Debug\net5.0\PXS.IfRF.Logging.GeneratedMSBuildEditorConfig.editorconfig
+C:\Usr\Stephan\Wrk\git.gittest\PXS.IfRF.Logging\obj\Debug\net5.0\PXS.IfRF.Logging.csproj.CoreCompileInputs.cache
+C:\Usr\Stephan\Wrk\git.gittest\PXS.IfRF.Logging\obj\Debug\net5.0\PXS.IfRF.Logging.dll
+C:\Usr\Stephan\Wrk\git.gittest\PXS.IfRF.Logging\obj\Debug\net5.0\refint\PXS.IfRF.Logging.dll
+C:\Usr\Stephan\Wrk\git.gittest\PXS.IfRF.Logging\obj\Debug\net5.0\PXS.IfRF.Logging.pdb
+C:\Usr\Stephan\Wrk\git.gittest\PXS.IfRF.Logging\obj\Debug\net5.0\ref\PXS.IfRF.Logging.dll

@@ -1,0 +1,16 @@
+C:\Usr\Stephan\Wrk\git.gittest\PXS.IfRF.Data\bin\Debug\net5.0\PXS.IfRF.Data.deps.json
+C:\Usr\Stephan\Wrk\git.gittest\PXS.IfRF.Data\bin\Debug\net5.0\PXS.IfRF.Data.runtimeconfig.json
+C:\Usr\Stephan\Wrk\git.gittest\PXS.IfRF.Data\bin\Debug\net5.0\PXS.IfRF.Data.runtimeconfig.dev.json
+C:\Usr\Stephan\Wrk\git.gittest\PXS.IfRF.Data\bin\Debug\net5.0\PXS.IfRF.Data.dll
+C:\Usr\Stephan\Wrk\git.gittest\PXS.IfRF.Data\bin\Debug\net5.0\PXS.IfRF.Data.pdb
+C:\Usr\Stephan\Wrk\git.gittest\PXS.IfRF.Data\bin\Debug\net5.0\PXS.IfRF.Logging.dll
+C:\Usr\Stephan\Wrk\git.gittest\PXS.IfRF.Data\bin\Debug\net5.0\PXS.IfRF.Logging.pdb
+C:\Usr\Stephan\Wrk\git.gittest\PXS.IfRF.Data\obj\Debug\net5.0\PXS.IfRF.Data.csproj.AssemblyReference.cache
+C:\Usr\Stephan\Wrk\git.gittest\PXS.IfRF.Data\obj\Debug\net5.0\PXS.IfRF.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Usr\Stephan\Wrk\git.gittest\PXS.IfRF.Data\obj\Debug\net5.0\PXS.IfRF.Data.csproj.CoreCompileInputs.cache
+C:\Usr\Stephan\Wrk\git.gittest\PXS.IfRF.Data\obj\Debug\net5.0\PXS.IfRF.Data.csproj.CopyComplete
+C:\Usr\Stephan\Wrk\git.gittest\PXS.IfRF.Data\obj\Debug\net5.0\PXS.IfRF.Data.dll
+C:\Usr\Stephan\Wrk\git.gittest\PXS.IfRF.Data\obj\Debug\net5.0\refint\PXS.IfRF.Data.dll
+C:\Usr\Stephan\Wrk\git.gittest\PXS.IfRF.Data\obj\Debug\net5.0\PXS.IfRF.Data.pdb
+C:\Usr\Stephan\Wrk\git.gittest\PXS.IfRF.Data\obj\Debug\net5.0\PXS.IfRF.Data.genruntimeconfig.cache
+C:\Usr\Stephan\Wrk\git.gittest\PXS.IfRF.Data\obj\Debug\net5.0\ref\PXS.IfRF.Data.dll

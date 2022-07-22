@@ -1,0 +1,117 @@
+﻿
+/*#region Remove blank spaces in title */
+.swagger-ui .info {
+    margin: 30px 0 0;
+}
+/*#endregion*/
+
+.swagger-ui {
+    font-size: 14px;
+}
+
+.swagger-ui table thead tr td, .swagger-ui table thead tr th {
+    font-size: 14px;
+}
+
+.swagger-ui .parameter__name {
+    font-size: 14px;
+}
+        .swagger-ui .markdown p, .swagger-ui .markdown pre, .swagger-ui .renderedMarkdown p, .swagger-ui .renderedMarkdown pre {
+    margin: 0em auto;
+}
+
+.swagger-ui input[type=email], .swagger-ui input[type=file], .swagger-ui input[type=password], .swagger-ui input[type=search], .swagger-ui input[type=text], .swagger-ui textarea {
+    min-width: 100px;
+    margin: 5px 0;
+    padding: 2px 4px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    background: #fff;
+}
+
+/*#region Remove blank spaces in API controllers */
+
+.swagger-ui .opblock .opblock-summary {
+    padding: 0px;
+}
+
+.swagger-ui h4.opblock-tag {
+    border-bottom: none;
+    margin: 10px 0 0;
+    padding: 0;
+}
+
+.swagger-ui .opblock .opblock-summary-method {
+    min-height: 32px;
+    padding-top: 8px;
+    border-radius: 0;
+}
+
+.swagger-ui .opblock {
+    margin: 10px;
+}
+
+span:not(:first-child) > .opblock {
+    margin-top: -1px;
+}
+
+/*#endregion*/
+
+/*#region API method PARAMETERS and RESPONSES as two columns */
+
+
+/*
+.swagger-ui .opblock .opblock-section-header {
+    min-height: 40px;
+    padding: 0 20px;
+    box-shadow: none;
+}
+
+.opblock-title > span::after {
+    display: none;
+}
+
+.swagger-ui .execute-wrapper,
+.opblock-body .btn-group {
+    padding: 0;
+}
+
+.opblock-body button {
+    display: inline-block;
+    height: 40px;
+    border-radius: 0;
+}
+    */
+/*#endregion */
+
+/*#region Remove blank spaces in responses */
+.swagger-ui .responses-inner,
+.swagger-ui .table-container {
+    padding: 0 20px 10px;
+}
+
+.response-content-type:empty {
+    padding: 0;
+}
+/*#endregion*/
+
+/*#region Remove blank spaces in models */
+.wrapper .block .models div .model-container {
+    margin: 5px;
+}
+
+.swagger-ui section.models.is-open,
+.model-container > span.model-box {
+    padding: 0;
+}
+/*#endregion*/
+
+/*#region Extra specific styles */
+.response-content-type {
+    display: none;
+}
+
+.scheme-container {
+    display: none;
+}
+/*#endregion*/

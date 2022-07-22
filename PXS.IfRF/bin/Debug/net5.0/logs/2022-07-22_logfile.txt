@@ -1,0 +1,14 @@
+2022-07-22 22:12:08.4773||DEBUG|PXS.IfRF.Startup..ctor|Logger initialized
+2022-07-22 22:12:08.9941||DEBUG|PXS.IfRF.Startup.ConfigureServices|Configuring services
+2022-07-22 22:14:39.9547||DEBUG|PXS.IfRF.Startup..ctor|Logger initialized
+2022-07-22 22:14:40.0517||DEBUG|PXS.IfRF.Startup.ConfigureServices|Configuring services
+2022-07-22 22:14:45.6382||DEBUG|PXS.IfRF.Startup.Configure|Configure
+2022-07-22 22:15:41.2652||DEBUG|PXS.IfRF.Startup..ctor|Logger initialized
+2022-07-22 22:15:41.3596||DEBUG|PXS.IfRF.Startup.ConfigureServices|Configuring services
+2022-07-22 22:15:41.8080||DEBUG|PXS.IfRF.Startup.Configure|Configure
+2022-07-22 22:16:51.1545||DEBUG|PXS.IfRF.Startup..ctor|Logger initialized
+2022-07-22 22:16:51.2544||DEBUG|PXS.IfRF.Startup.ConfigureServices|Configuring services
+2022-07-22 22:16:51.7063||DEBUG|PXS.IfRF.Startup.Configure|Configure
+2022-07-22 22:20:37.1691||DEBUG|PXS.IfRF.Startup..ctor|Logger initialized
+2022-07-22 22:20:37.2621||DEBUG|PXS.IfRF.Startup.ConfigureServices|Configuring services
+2022-07-22 22:20:37.6895||DEBUG|PXS.IfRF.Startup.Configure|Configure
