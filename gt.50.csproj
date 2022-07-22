@@ -27,7 +27,7 @@
     <Compile Remove="Src\Basic.cs" />
     <Compile Remove="Src\BasicAuthentication.cs" />
     <Compile Remove="Src\BasicCondensed.cs" />
-    <Compile Remove="Src\CertificateBasedAuthentication.Kestrel.cs" />
+    <Compile Remove="Src\BasicController.cs" />
     <Compile Remove="Src\CertificateBasedAuthentication.pxs.cs" />
     <Compile Remove="Src\CertificateBasedAuthentication.v1.cs" />
     <Compile Remove="Src\CertificateBasedAuthentication.v2.cs" />
@@ -72,9 +72,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Authentication.Certificate" Version="5.0.17" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Certificate" Version="5.0.16" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.17" />
+    <PackageReference Include="Microsoft.AspNetCore.OData" Version="8.0.10" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.1" />
     <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.3.1" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.21.0" />
   </ItemGroup>
 
 </Project>

@@ -219,62 +219,18 @@ namespace Whoua.Core.Api
 
                     // add the certificate from the place as defined in env variables
 
-                    //IDictionary _envVar = Environment.GetEnvironmentVariables();
+                    IDictionary envVar = Environment.GetEnvironmentVariables();
 
-					string serverCertificatePath		= @"C:\dev\code\certificates\ifrf-dev.pfx";
-					string serverCertificatePassword	= @"7eO5cOYu98PtY0lR5tHB";
+					//string serverCertificatePath		= @"C:\dev\code\certificates\ifrf-dev.pfx";
+					//string serverCertificatePassword	= @"7eO5cOYu98PtY0lR5tHB";
 
-                    //string serverCertificatePath=envVar["ServerCertificatePath"].ToString(), 
-					//string serverCertificatePassword = _envVar["ServerCertificatePassword"].ToString()
+                    string serverCertificatePath		= envVar["ServerCertificatePath"].ToString();
+					string serverCertificatePassword	= envVar["ServerCertificatePassword"].ToString();
 
-					IDictionary envVar = Environment.GetEnvironmentVariables();
-
-					int port = 443;
-
-					string v = envVar["ASPNETCORE_ENVIRONMENT"].ToString();
-					if( v == "Development")
-					{
-						d.WriteLine( "Development running");
-						port = 8080;
-					}
+					int port = 8080;
 					
                     ConfigureKestrel( webBuilder, port, serverCertificatePath, serverCertificatePassword);
                 });
-		/*
-        private static void ConfigureKestrel1( IWebHostBuilder webBuilder, int port, string serverCertPath, string serverCertPwd)
-        {
-            _ = webBuilder.UseKestrel(options =>
-            {
-				d.WriteLine( string.Format( "{0}.{1} ({2}.{3}):{4}", System.Reflection.MethodBase.GetCurrentMethod().DeclaringType.Name, System.Reflection.MethodInfo.GetCurrentMethod( ).Name, System.Threading.Thread.CurrentThread.ManagedThreadId, Global.CallCount++, string.Empty));
-
-                d.WriteLine("Using Kestrel");
-                X509Certificate2 x509Cert = new X509Certificate2( File.ReadAllBytes( serverCertPath), serverCertPwd);
-
-                d.WriteLine( $"Subject: {x509Cert.Subject}");
-                d.WriteLine( $"Issuer: {x509Cert.Issuer}");
-                d.WriteLine( $"IssuerName: {x509Cert.IssuerName}");
-                d.WriteLine( $"Subject: {x509Cert.Subject}");
-                d.WriteLine( $"SubjectName: {x509Cert.SubjectName}");
-
-                options.Listen(IPAddress.Any, port, listenOptions =>
-                {
-                    _ = listenOptions.UseHttps((a, b, c, d) =>
-                    {
-                        var serverChain = new X509Certificate2Collection();
-                        serverChain.Import(serverCertPath, serverCertPwd);
-                        return new ValueTask<SslServerAuthenticationOptions>(new SslServerAuthenticationOptions
-                        {
-                            ServerCertificateContext = SslStreamCertificateContext.Create(x509Cert, serverChain),
-                            // require a client certificate, note that with UseHttps the ConfigureWebHostDefaults is ignored
-                            ClientCertificateRequired = true,
-                            RemoteCertificateValidationCallback = CertificateValidator.StaticValidateCertificate
-                        });
-                    },
-                    null);
-                });
-            });
-        }
-		*/
 
         private static void ConfigureKestrel( IWebHostBuilder webBuilder, int port, string serverCertPath, string serverCertPwd)
         {
@@ -1191,7 +1147,6 @@ namespace Whoua.Core.Api.Supporting
 	using System.Collections.Generic;
 	using Microsoft.AspNetCore.Authorization;
 	using Microsoft.AspNetCore.Http;
-	using Microsoft.EntityFrameworkCore.Diagnostics;
 	using Microsoft.Extensions.DependencyInjection;
 
 	using Whoua.Core.Api.AuthHandling;

@@ -5,7 +5,9 @@
       "launchBrowser": true,
       "launchUrl": "swagger/index.html",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ServerCertificatePath": "C:\\Usr\\Stephan\\Wrk\\git.gittest\\Src\\ifrf-dev.pfx",
+        "ServerCertificatePassword": "7eO5cOYu98PtY0lR5tHB"
       },
       "applicationUrl": "https://localhost:63382;http://localhost:63383"
     }
