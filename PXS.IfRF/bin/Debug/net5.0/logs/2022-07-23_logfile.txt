@@ -1,0 +1,8 @@
+2022-07-23 22:36:36.2215||DEBUG|PXS.IfRF.Startup..ctor|Logger initialized
+2022-07-23 22:36:37.0457||DEBUG|PXS.IfRF.Startup.ConfigureServices|Configuring services
+2022-07-23 22:36:38.3227||DEBUG|PXS.IfRF.Startup.Configure|Configure
+2022-07-23 22:36:57.2833||DEBUG|PXS.IfRF.AuthHandling.CertAndWebsealAuthenticationHandler.HandleAuthenticateAsync|SDE:HandleAuthenticateAsync checking certificate
+2022-07-23 22:36:57.2984||DEBUG|PXS.IfRF.AuthHandling.CertAndWebsealAuthenticationHandler.GetCertificateAuthorization|Entering [GetCertificateAuthorization]
+2022-07-23 22:36:57.2984||DEBUG|PXS.IfRF.AuthHandling.CertAndWebsealAuthenticationHandler.GetCertificateAuthorization|processing connectionId=[0HMJCTC685RIN], remoteHost=[], remoteIp=[::1], 
+2022-07-23 22:36:57.2984||DEBUG|PXS.IfRF.AuthHandling.CertAndWebsealAuthenticationHandler.GetCertificateAuthorization|[0HMJCTC685RIN/::1]:Client is not using a certificate, defaulting to WebSeal
+2022-07-23 22:36:57.2984||DEBUG|PXS.IfRF.AuthHandling.CertAndWebsealAuthenticationHandler.HandleAuthenticateAsync|subjectCN=[], [Webseal] certificate detected

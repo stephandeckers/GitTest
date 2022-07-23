@@ -49,7 +49,14 @@ namespace PXS.IfRF
 					 webBuilder.UseStartup<Startup>( );
 				 } );
 
-		public static IHostBuilder CreateKestrelHostBuilder(string[] args) =>
+		public static IHostBuilder CreateKestrelHostBuilder( string[] args ) =>
+			Host.CreateDefaultBuilder( args )
+				.ConfigureWebHostDefaults( webBuilder =>
+				 {
+					 webBuilder.UseStartup<Startup>( );
+				 } );
+
+		public static IHostBuilder CreateKestrelHostBuilder1(string[] args) =>
             Host.CreateDefaultBuilder(args)            
                 .ConfigureWebHostDefaults(webBuilder =>
                 {                    
